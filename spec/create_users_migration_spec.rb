@@ -9,11 +9,11 @@ describe 'user' do
     CreateUsers.new.up
   end
 
-  it 'has a name' do
-    user = User.new
-    user.username = "Steven"
-    user.password = "safepassword"
-    user.save
-    expect(User.where(username: "Steven").first).to eq(user)
-  end
+  # it 'has a name' do
+  #   user = User.new
+  #   user.username = "Steven"
+  #   user.password = "safepassword"
+  #   user.save
+  #   expect(User.where(username: "Steven").first).to eq(user)
+  # end
 end
